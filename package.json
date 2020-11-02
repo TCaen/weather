@@ -6,7 +6,7 @@
     "serve": "NODE_ENV=development vue-cli-service serve --open --host localhost",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "start": "node server.js"
+    "start": "vue-cli-service serve --mode production"
   },
   "dependencies": {
     "core-js": "^3.6.5",
