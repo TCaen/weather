@@ -1,5 +1,5 @@
 <template>
-  <div id='app' :class="typeof weather.main != 'undefined' && weather.main.temp > ? 'warm' : ''">
+  <div id='app' :class="typeof weather.main != 'undefined' && weather.main.temp > 16 ? 'warm' : ''">
     <main>
       <div class="search-box">
         <input type="text"
@@ -9,6 +9,7 @@
           @keypress="fetchWeather"
           />
       </div>
+      <div style="color: white;">Autre Test</div>
 
       <div class="weather-wrap" v-if="typeof weather.main != 'undefined'">
         <div class="location-box">
