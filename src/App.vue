@@ -28,8 +28,8 @@
 export default {
   name: 'app',
   data () {
-    return {
-      api_key: 'f6a2c317f97367bfe8fa3e5fc517e80d',
+     return {
+      api_key: '638ada882ee852924931438eb0e74c25',
       url_base: 'https://api.openweathermap.org/data/2.5/',
       query: '',
       weather: {}
@@ -58,6 +58,7 @@ export default {
       return `${day} ${date} ${month} ${year}`;
     }
   }
+}
 </script>
 
 <style>
