@@ -9,7 +9,6 @@
           @keypress="fetchWeather"
           />
       </div>
-      <div style="color: white;">Autre k Test</div>
 
       <div class="weather-wrap" v-if="typeof weather.main != 'undefined'">
         <div class="location-box">
